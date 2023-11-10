@@ -1,0 +1,122 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: auto;
+  padding: 2rem;
+  background-image: url('sky.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+}
+
+center {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+h3{
+  color: rgb(179, 21, 21);
+}
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#dictionarySection,
+#thesaurusSection {
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+#dictionaryMeaning,
+#thesaurusSynonyms {
+  font-size: 18px;
+}
+/* Add this to your existing CSS */
+
+/* Styling for audio player */
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Styling for synonyms */
+#thesaurusSynonyms p {
+  margin: 0;
+}
+
+#thesaurusSynonyms p:first-child {
+  font-weight: bold;
+}
+
+/* Additional styling for thesaurus section */
+#thesaurusSection {
+  margin-top: 20px;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  font-size: 24px;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #55acee; /* Twitter blue color */
+}

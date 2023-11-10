@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dictionary & Thesaurus</title>
+  <link rel="stylesheet" href="index.css"> 
+  <script src="fetchApi.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="homepage.html">Homepage</a></li>
+        <li><a href="index.html">Dictionary</a></li>
+        <li><a href="word.html">CRUD</a></li>
+      </ul>
+    </nav>
+  </header>
+  <center>
+    <h1>Online Dictionary & Thesaurus</h1>
+    <h2>Please enter your word below:</h2>
+    <input type="text" id="searchData" placeholder="Enter word">
+    <button onclick="buttonClicked()">Enter</button>
+  </center>
+
+  <!-- DICTIONARY-->
+  <div id="dictionarySection">
+    <h3>Dictionary Definitions:</h3>
+    <div id="dictionaryMeaning"></div>
+  </div>
+<hr>
+  <!--THESAURUS-->
+  <div id="thesaurusSection">
+    <h3>Thesaurus Synonyms:</h3>
+    <div id="thesaurusSynonyms"></div>
+  </div>
+
+  <!-- Footer -->
+<footer>
+  <div class="footer-container">
+    <div class="social-icons">
+      <a href="https://www.instagram.com/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>&copy; 2023 Online Dictionary. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        .explore-button {
+            font-size: 1em;
+            padding: 20px 40px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+        .explore-button:hover {
+            background-color: #0056b3;
+        }
+        img{
+            max-width: 35rem;
+        }
+        footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  font-size: 24px;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #55acee; /* Twitter blue color */
+}
+    </style>
+</head>
+
+<body style="background-image: url('sky.png'); background-size: cover; background-repeat: no-repeat;">
+    <h1>Welcome to Our Digital Dictionary</h1>
+    <p>Thank you for visiting our website. Feel free to explore and discover the words that you want to know with us!.</p>
+    <img src="dict.png" alt="Dictionary Photo">
+    <br><br>    
+    <button class="explore-button" onclick="explore()">Explore</button>
+    <br><br><br><br><br><br><br><br>
+
+    <script>
+        function explore() {
+            window.location.href = "index.html"; // Redirect to index.html
+        }
+    </script>
+
+      <!-- Footer -->
+<footer>
+    <div class="footer-container">
+      <div class="social-icons">
+        <a href="https://www.instagram.com/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p>&copy; 2023 Online Dictionary. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
